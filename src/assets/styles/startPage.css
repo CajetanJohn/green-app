@@ -1,0 +1,96 @@
+.startPage {
+    background-color: white;
+    flex: 1;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+  
+  .shapesIcon {
+    position: absolute;
+    top: -52px;
+    left: -54px;
+    width: 235px;
+    height: 173px;
+  }
+  
+  .shapesIcon1 {
+    position: absolute;
+    height: 20.5%;
+    width: 60.26%;
+    top: 84.24%;
+    right: -18.97%;
+    bottom: -4.74%;
+    left: 58.72%;
+  }
+  
+  .greenbin {
+    position: absolute;
+    top: 147px;
+    left: 94px;
+    font-size: 3rem; /* Adjust based on FontSize.size_29xl */
+    color: gray; /* Adjust based on Color.colorGray_500 */
+    width: 229px;
+    height: 56px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .startimgIcon {
+    position: absolute;
+    top: 229px;
+    left: 37px;
+    width: 318px;
+    height: 335px;
+  }
+  
+  .manageYourWaste {
+    position: absolute;
+    top: 577px;
+    left: 67px;
+    font-size: 1rem; /* Adjust based on FontSize.size_base */
+    color: darkgray; /* Adjust based on Color.colorGray_800 */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .getStartedBtn1 {
+    position: absolute;
+    top: 627px;
+    left: 34px;
+    width: 322px;
+    height: 53px;
+    background-color: limegreen; /* Adjust based on Color.colorLimegreen_100 */
+    border-radius: 8px; /* Adjust based on Border.br_base */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .getStarted {
+    display: block;
+    height: 50%;
+    width: 39.01%;
+    top: 25.09%;
+    left: 30.22%;
+    font-size: 1.125rem; /* Adjust based on FontSize.size_lg */
+    color: white; /* Adjust based on Color.colorWhite */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+  }
+  
+  
+  .text {
+    position: absolute;
+    top: 42.86%;
+    font-size: 0.875rem; /* Adjust based on FontSize.size_sm */
+    color: black; /* Adjust based on Color.colorBlack */
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+  

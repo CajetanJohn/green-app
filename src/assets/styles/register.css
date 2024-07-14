@@ -1,0 +1,105 @@
+/* styles.css */
+
+.registerPage {
+    background-color: #f5f5f5;
+    height: calc(100vh);
+    width:calc(100vw - 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .shapesIcon {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top:-5%;
+    left:-5%;
+  }
+  
+  .shapesIcon1 {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    right: -18%;
+    bottom: -5%;
+  }
+
+  .welcome-message{
+    padding-right: 30px;
+  }
+  
+  .greebin-trademark {
+    margin-bottom: 10px;
+    width:100%;
+    height:auto !important;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .greenbin-welcome {
+    font-size: 2.1rem;
+    color: #808080;
+    font-weight: 600;
+  }
+  
+  .welcome-to {
+    color: #333;
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+
+  .suggestive-message{
+    width: 100%;
+    text-align: center;
+    margin:15px 0;
+    font-size: 0.875rem;
+  }
+  
+  
+  
+  
+  .iAcceptTheTermsConditionParent {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .groupChild {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    background-color: #fff;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+  }
+  
+  .text {
+    font-size: 0.875rem;
+  }
+  
+  .alreadyHaveAn {
+    color: #808080;
+  }
+  
+  .signIn {
+    color: #00ced1;
+  }
+  
+  .signin-text-link{
+    position: relative;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .text1 {
+    color: #008b8b;
+  }
+  

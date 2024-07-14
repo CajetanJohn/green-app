@@ -1,0 +1,17 @@
+.navigation{
+  display:flex;
+  width:100%;
+  height:fit-content;
+  min-height: 40px;
+  background: red;
+  align-items: center;
+  position: absolute;
+  bottom:0;
+}
+
+.navigation .nav-link{
+  display:flex;
+  justify-content: center;
+  flex:1;
+  cursor:pointer;
+}
