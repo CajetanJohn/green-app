@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/greenapp/static/css/main.05d1d4d2.css",
-    "main.js": "/greenapp/static/js/main.483fa9b0.js",
+    "main.js": "/greenapp/static/js/main.5f34235a.js",
     "static/css/565.1844f118.chunk.css": "/greenapp/static/css/565.1844f118.chunk.css",
     "static/js/565.d154d55b.chunk.js": "/greenapp/static/js/565.d154d55b.chunk.js",
     "static/css/152.64e91957.chunk.css": "/greenapp/static/css/152.64e91957.chunk.css",
@@ -29,7 +29,7 @@
     "static/media/lightning.svg": "/greenapp/static/media/lightning.c2505d41ca8891f386cb5a3210fc9eb2.svg",
     "static/media/user.svg": "/greenapp/static/media/user.b558284273d0b6dfaa315151208c693e.svg",
     "main.05d1d4d2.css.map": "/greenapp/static/css/main.05d1d4d2.css.map",
-    "main.483fa9b0.js.map": "/greenapp/static/js/main.483fa9b0.js.map",
+    "main.5f34235a.js.map": "/greenapp/static/js/main.5f34235a.js.map",
     "565.1844f118.chunk.css.map": "/greenapp/static/css/565.1844f118.chunk.css.map",
     "565.d154d55b.chunk.js.map": "/greenapp/static/js/565.d154d55b.chunk.js.map",
     "152.64e91957.chunk.css.map": "/greenapp/static/css/152.64e91957.chunk.css.map",
@@ -47,6 +47,6 @@
   },
   "entrypoints": [
     "static/css/main.05d1d4d2.css",
-    "static/js/main.483fa9b0.js"
+    "static/js/main.5f34235a.js"
   ]
 }
