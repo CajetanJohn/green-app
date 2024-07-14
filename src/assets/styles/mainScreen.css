@@ -1,19 +1,18 @@
-/* Ensure the container occupies the full viewport height */
 .main-container {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    
   }
-  
-  /* Main component section with full height minus the height of the navigation */
+
   .main-component-section {
     flex: 1;
-    overflow: hidden; /* Prevents the main section from overflowing */
     display: flex;
     flex-direction: column;
+    overflow: hidden;
   }
   
-  /* Scrollable div with flexible height and scrollable overflow */
+  
   .scrollable {
     flex: 1;
     overflow-y: auto;

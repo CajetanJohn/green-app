@@ -1,0 +1,400 @@
+.vectorIconLayout {
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .textFlexBox {
+    text-align: center;
+    position: absolute;
+  }
+  
+  .challengeLayout {
+    width: 119px;
+    height: 177px;
+    top: 0;
+    position: absolute;
+  }
+  
+  .about201BillionTypo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  
+  .groupBorder {
+    background-color: gainsboro;
+    border-width: 1px;
+    border-color: gainsboro;
+    border-style: solid;
+    height: 10px;
+    border-radius: 10px;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+  
+  .vendorsYouFollowTypo {
+    height: 35px;
+    width: 278px;
+    font-size: 24px;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+  }
+  
+  .noteLayout {
+    height: 57px;
+    width: 359px;
+    position: absolute;
+  }
+  
+  .helloTypo {
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .vendordetailsLayout {
+    width: 141px;
+    position: absolute;
+  }
+  
+  .vendornameLayout {
+    height: 41px;
+    position: absolute;
+  }
+  
+  .shaileshTypo {
+    color: darkslategray;
+    height: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    left: 0;
+    text-align: center;
+    top: 0;
+  }
+  
+  .thaneTypo {
+    height: 17px;
+    width: 60px;
+    font-size: 12px;
+    color: darkslategray;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+  }
+  
+  .vendorname1Layout {
+    width: 117px;
+    position: absolute;
+  }
+  
+  .text1Layout {
+    height: 45px;
+    position: absolute;
+  }
+  
+  .shapesIcon {
+    top: -52px;
+    left: -54px;
+    width: 235px;
+    height: 173px;
+    position: absolute;
+  }
+  
+  .shapesIcon1 {
+    height: 20.5%;
+    width: 60.26%;
+    top: 84.24%;
+    right: -18.97%;
+    bottom: -4.74%;
+    left: 58.72%;
+  }
+  
+  .vectorIcon {
+    height: 42.86%;
+    width: 6.2%;
+    top: 46.43%;
+    right: 0%;
+    bottom: 10.71%;
+    left: 93.8%;
+  }
+  
+  .vectorIcon1 {
+    height: 60.71%;
+    width: 6.48%;
+    top: 35.71%;
+    right: 7.61%;
+    bottom: 3.57%;
+    left: 85.92%;
+  }
+  
+  .vectorIcon2 {
+    height: 67.86%;
+    width: 5.63%;
+    top: 32.14%;
+    right: 16.06%;
+    bottom: 0%;
+    left: 78.31%;
+  }
+  
+  .text {
+    top: 42.86%;
+    left: 0%;
+    font-size: 14px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+  
+  .notification {
+    left: 18px;
+    width: 355px;
+    height: 28px;
+    top: 0;
+    position: absolute;
+  }
+  
+  .menuBarIcon {
+    top: 770px;
+    width: 390px;
+    height: 74px;
+    left: 0;
+    position: absolute;
+  }
+  
+  .challengeBox1Child {
+    background-color: gray;
+    border-radius: 10px;
+    width: 119px;
+    height: 177px;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+  
+  .harvestRainWater {
+    top: 73px;
+    left: 9px;
+    font-size: 16px;
+    color: white;
+    width: 101px;
+    height: 72px;
+    text-align: center;
+    position: absolute;
+  }
+  
+  .rainIcon {
+    top: 20px;
+    left: 33px;
+    width: 53px;
+    height: 53px;
+    position: absolute;
+  }
+  
+  .groupChild {
+    border-width: 1px;
+    border-color: gainsboro;
+    border-style: solid;
+    height: 10px;
+    width: 90px;
+    border-radius: 10px;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+  
+  .groupItem {
+    width: 45px;
+  }
+  
+  .rectangleParent {
+    top: 155px;
+    left: 15px;
+    height: 10px;
+    width: 90px;
+    position: absolute;
+  }
+  
+  .challengeBox1 {
+    left: 0;
+  }
+  
+  .groupInner {
+    width: 90px;
+    background-color: gainsboro;
+  }
+  
+  .challengeBox2 {
+    left: 139px;
+  }
+  
+  .groupChild1 {
+    width: 19px;
+  }
+  
+  .challengeBox3 {
+    left: 278px;
+  }
+  
+  .challengeFrame {
+    top: 534px;
+    left: 23px;
+    width: 357px;
+    height: 177px;
+    position: absolute;
+  }
+  
+  .challengeProgress {
+    top: 486px;
+    left: 8px;
+  }
+  
+  .noteMessageChild {
+    shadow-color: rgba(0, 0, 0, 0.25);
+    shadow-offset: 4px 4px;
+    shadow-radius: 8px;
+    elevation: 8px;
+    shadow-opacity: 1;
+    border-radius: 15px;
+    background-color: white;
+    left: 0;
+    top: 0;
+  }
+  
+  .textTypo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+  
+  .factAbout201Container {
+    top: 9px;
+    left: 1px;
+    font-size: 14px;
+    color: gray;
+    width: 354px;
+    height: 48px;
+  }
+  
+  .noteMessage {
+    top: 409px;
+    left: 17px;
+  }
+  
+  .hello {
+    top: 51px;
+    left: 248px;
+    width: 125px;
+    height: 39px;
+    color: gray;
+    font-size: 48px;
+    position: absolute;
+  }
+  
+  .shailesh {
+    font-size: 24px;
+    width: 93px;
+    position: absolute;
+  }
+  
+  .mumbai {
+    top: 24px;
+    left: 17px;
+  }
+  
+  .vendorname {
+    top: 171px;
+    left: 24px;
+    width: 93px;
+  }
+  
+  .vendorimgIcon {
+    border-radius: 70px;
+    height: 165px;
+    left: 0;
+    top: 0;
+  }
+  
+  .vendordetails {
+    height: 212px;
+    left: 0;
+    top: 0;
+  }
+  
+  .hansenReddy {
+    font-size: 16px;
+    color: darkslategray;
+    height: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    left: 0;
+    text-align: center;
+    top: 0;
+  }
+  
+  .thane {
+    top: 22px;
+    left: 31px;
+  }
+  
+  .vendorname1 {
+    top: 165px;
+    left: 12px;
+    height: 39px;
+  }
+  
+  .vendordetails1 {
+    top: 6px;
+    left: 152px;
+    height: 204px;
+  }
+  
+  .addVendorBtnChild {
+    top: 3px;
+    width: 41px;
+    left: 0;
+  }
+  
+  .text1 {
+    left: 10px;
+    width: 22px;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    top: 0;
+  }
+  
+  .addVendorBtn {
+    top: 82px;
+    left: 312px;
+    width: 41px;
+  }
+  
+  .vendorsYouFollow {
+    top: -44px;
+    left: -15px;
+  }
+  
+  .vendorFrame {
+    top: 182px;
+    width: 353px;
+    height: 212px;
+    left: 17px;
+    position: absolute;
+  }
+  
+  .homePageExistingUser {
+    background-color: whitesmoke;
+    flex: 1;
+    width: 100%;
+    height: 844px;
+    overflow: hidden;
+  }
+  
