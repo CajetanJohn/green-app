@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import BasicButton from '../materials/bs-btn';
+import Modal from '../components/Modal';
 
 const Installer = () => {
   const [deferredPrompt, setDeferredPrompt] = useState(null);
   const [isInstalled, setIsInstalled] = useState(false);
   const [showInstallPrompt, setShowInstallPrompt] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     const handleBeforeInstallPrompt = (e) => {
@@ -15,6 +18,7 @@ const Installer = () => {
     const handleAppInstalled = () => {
       setIsInstalled(true);
       setShowInstallPrompt(false);
+      setIsModalOpen(false);
     };
 
     window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
@@ -27,11 +31,12 @@ const Installer = () => {
   }, []);
 
   useEffect(() => {
-    if (
-      window.matchMedia('(display-mode: standalone)').matches ||
-      window.navigator.standalone
-    ) {
+    if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone) {
       setIsInstalled(true);
+      setIsModalOpen(false);
+    } else {
+      setIsInstalled(false);
+      setIsModalOpen(true);
     }
   }, []);
 
@@ -40,22 +45,37 @@ const Installer = () => {
       deferredPrompt.prompt();
       deferredPrompt.userChoice.then((choiceResult) => {
         if (choiceResult.outcome === 'accepted') {
-          console.log('User accepted the A2HS prompt');
-        } else {
-          console.log('User dismissed the A2HS prompt');
+          setIsModalOpen(false);
         }
         setDeferredPrompt(null);
       });
     }
   };
 
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setIsInstalled(true);
+  };
+
   return (
     <>
       {!isInstalled && showInstallPrompt && (
-        <div className="install-prompt">
-          <p>Install this app for a better experience.</p>
-          <button onClick={handleInstallClick}>Install</button>
-        </div>
+        <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
+          <div className="install-prompt">
+            <p>Install this app for a better experience.</p>
+            <BasicButton className='install-button' onClick={handleInstallClick}>install</BasicButton>
+          </div>
+          <style jsx>{`
+            .install-prompt {
+              text-align: left;
+              display: flex;
+              flex-direction: column;
+            }
+            .install-button, .close-button {
+              margin: 5px auto;
+            }
+          `}</style>
+        </Modal>
       )}
     </>
   );

@@ -3,10 +3,11 @@
   width:100%;
   height:fit-content;
   min-height: 40px;
-  background: red;
+  background: var(--sc-color);
   align-items: center;
-  position: absolute;
+  position: fixed;
   bottom:0;
+  z-index:1;
 }
 
 .navigation .nav-link{

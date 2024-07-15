@@ -6,12 +6,17 @@ import { ReactComponent as Home } from './home.svg';
 import { ReactComponent as List } from './list.svg';
 import { ReactComponent as User } from './user.svg';
 import { ReactComponent as Lightning } from './lightning.svg';
+import { ReactComponent as Show } from './eye.svg';
+import { ReactComponent as Hide } from './eye-slash.svg';
+
 
 const icons = {
     home: Home,
     news: List,
     user: User,
     challenges: Lightning,
+    show:Show,
+    hide:Hide,
 };
 
 const Icon = ({ name, onClick, fill, size, children, ...rest }) => {

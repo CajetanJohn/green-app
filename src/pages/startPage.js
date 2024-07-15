@@ -10,7 +10,7 @@ const StartPage = () => {
   };
 
   return (
-    <div className="startPage">
+    <div className="page-container">
       <img className="shapesIcon" src={require("../assets/images/shapes.png")} alt="Shapes" />
       <img className="shapesIcon1" src={require("../assets/images/shapes.png")} alt="Shapes" />
       <h1 className="greenbin">GreenBin</h1>

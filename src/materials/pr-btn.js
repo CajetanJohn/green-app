@@ -9,9 +9,9 @@ const PrimaryButton = ({ onClick, children }) => {
         textAlign: 'center',
         cursor: 'pointer',
         border: 'none',
-        width: '50vw',
-        background: '#32cd32',
-        borderRadius: '25px',
+        width: '40%',
+        background: 'var(--pr-color)',
+        borderRadius: '15px',
         color: 'white',
         fontSize:'23px',
       }}

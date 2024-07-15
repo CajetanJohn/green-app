@@ -21,5 +21,17 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#FFFFFF",
+  "categories": ["environment"],
+  "author": {
+    "name": "John Cajetan",
+    "email": "johncajetan1@gmail.com",
+    "url": "https://instagram.com/cajetan.__?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"
+    },
+    "lang": "en-US",
+    "dir": "ltr",
+    "environment": {
+      "category": "waste management",
+      "explicit": false
+    }
 }

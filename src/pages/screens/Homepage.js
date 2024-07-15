@@ -8,12 +8,12 @@ const HomePage = () => {
   const following = [
     {
       name: 'Shailesh',
-      image: '../../assets/images/vendorimg.png',
+      image: require('../../assets/images/vendorimg.png'),
       location: 'Kisumu',
     },
     {
       name: 'Hansen',
-      image: '../../assets/images/vendorimg1.png',
+      image: require('../../assets/images/vendorimg1.png'),
       location: 'Mumbai',
     },
   ];
@@ -84,7 +84,7 @@ const HomePage = () => {
               </span>
               <span className="thane thaneTypo">({vendor.location})</span>
             </div>
-            <img className="vendorimgIcon vendordetailsLayout" src={require(`${vendor.image}`)} alt="Vendor Image" />
+            <img className="vendorimgIcon vendordetailsLayout" src={vendor.image.default} alt="Vendor Image" />
           </div>
         ))}
 

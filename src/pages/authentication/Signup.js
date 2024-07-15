@@ -18,7 +18,7 @@ const RegisterPage = ({ navigation }) => {
 
 
   return (
-    <div className="registerPage"> 
+    <div className="page-container"> 
 
       <> 
         <img className="shapesIcon" src={require("../../assets/images/shapes.png")} alt="Shapes"/>
