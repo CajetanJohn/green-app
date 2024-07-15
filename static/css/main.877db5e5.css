@@ -1,2 +1,0 @@
-*{box-sizing:border-box}body,html{font-family:Arial,Helvetica,sans-serif;margin:0;padding:0}.app-container{min-height:100dvh;position:relative;width:100vw}.app-container,.page-container{display:flex;height:100vh;justify-content:center}.page-container{align-items:center;flex-direction:column;width:100%}:root{--pr-color:#32cd32;--sc-color:#508060}@media (min-width:1024px){.page-container{border:1px solid #000;max-width:769px}}
-/*# sourceMappingURL=main.877db5e5.css.map*/
