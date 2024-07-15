@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/greenapp/static/css/main.f4ac3a0f.css",
-    "main.js": "/greenapp/static/js/main.de65d50e.js",
+    "main.js": "/greenapp/static/js/main.1e4cb63b.js",
     "static/css/109.9ff1e987.chunk.css": "/greenapp/static/css/109.9ff1e987.chunk.css",
     "static/js/109.cf45fdc8.chunk.js": "/greenapp/static/js/109.cf45fdc8.chunk.js",
     "static/css/350.eab53fe7.chunk.css": "/greenapp/static/css/350.eab53fe7.chunk.css",
@@ -18,7 +18,7 @@
     "static/js/320.38928e11.chunk.js": "/greenapp/static/js/320.38928e11.chunk.js",
     "static/css/977.7f2b5966.chunk.css": "/greenapp/static/css/977.7f2b5966.chunk.css",
     "static/js/977.cafbeab1.chunk.js": "/greenapp/static/js/977.cafbeab1.chunk.js",
-    "static/css/334.b44b6c45.chunk.css": "/greenapp/static/css/334.b44b6c45.chunk.css",
+    "static/css/334.7c33fa3b.chunk.css": "/greenapp/static/css/334.7c33fa3b.chunk.css",
     "static/js/334.17e803ca.chunk.js": "/greenapp/static/js/334.17e803ca.chunk.js",
     "static/media/start-img.png": "/greenapp/static/media/start-img.e729110174b754a19449.png",
     "static/media/rectangle-57.png": "/greenapp/static/media/rectangle-57.83a41a366b2a07f738c3.png",
@@ -33,7 +33,7 @@
     "static/media/lightning.svg": "/greenapp/static/media/lightning.c2505d41ca8891f386cb5a3210fc9eb2.svg",
     "static/media/user.svg": "/greenapp/static/media/user.b558284273d0b6dfaa315151208c693e.svg",
     "main.f4ac3a0f.css.map": "/greenapp/static/css/main.f4ac3a0f.css.map",
-    "main.de65d50e.js.map": "/greenapp/static/js/main.de65d50e.js.map",
+    "main.1e4cb63b.js.map": "/greenapp/static/js/main.1e4cb63b.js.map",
     "109.9ff1e987.chunk.css.map": "/greenapp/static/css/109.9ff1e987.chunk.css.map",
     "109.cf45fdc8.chunk.js.map": "/greenapp/static/js/109.cf45fdc8.chunk.js.map",
     "350.eab53fe7.chunk.css.map": "/greenapp/static/css/350.eab53fe7.chunk.css.map",
@@ -50,11 +50,11 @@
     "320.38928e11.chunk.js.map": "/greenapp/static/js/320.38928e11.chunk.js.map",
     "977.7f2b5966.chunk.css.map": "/greenapp/static/css/977.7f2b5966.chunk.css.map",
     "977.cafbeab1.chunk.js.map": "/greenapp/static/js/977.cafbeab1.chunk.js.map",
-    "334.b44b6c45.chunk.css.map": "/greenapp/static/css/334.b44b6c45.chunk.css.map",
+    "334.7c33fa3b.chunk.css.map": "/greenapp/static/css/334.7c33fa3b.chunk.css.map",
     "334.17e803ca.chunk.js.map": "/greenapp/static/js/334.17e803ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4ac3a0f.css",
-    "static/js/main.de65d50e.js"
+    "static/js/main.1e4cb63b.js"
   ]
 }
